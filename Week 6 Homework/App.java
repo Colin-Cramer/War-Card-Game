@@ -18,9 +18,11 @@ public class App {
 		if(player1.getScore() == player2.getScore()) {
 			System.out.println("Draw!");
 		} else if (player1.getScore() > player2.getScore()) {
-			System.out.println("The winner is : " + player1.getName() + " with a score of " + player1.getScore() + "!");
+			System.out.println("The winner is: " + player1.getName() + " with a score of " + player1.getScore() + "!");
+			System.out.println("The loser is: " + player2.getName() + " with a score of " + player2.getScore() + ".");
 		} else if (player1.getScore() < player2.getScore()) {
-			System.out.println("The winner is : " + player2.getName() + " with a score of " + player2.getScore() + "!");
+			System.out.println("The winner is: " + player2.getName() + " with a score of " + player2.getScore() + "!");
+			System.out.println("The loser is: " + player1.getName() + " with a score of " + player1.getScore() + ".");
 		}
 	}
 
